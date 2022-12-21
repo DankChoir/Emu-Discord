@@ -1,0 +1,168 @@
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+
+/* Hide GIF picker button */
+button[aria-label="Open GIF picker"] {
+    display: none;
+}
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/*Remove help button
+.anchor-1MIwyf {
+    display: none;
+}*/
+
+/* Channel Names Capitalized */
+
+.channelName-3KPsGw {
+text-transform: capitalize;
+}
+
+
+
+/* Compact channels catégories */
+
+:root {
+    --category-spacing: 4px;
+    --channel-spacing: 4px;
+}
+
+.containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
+    padding-top: var(--category-spacing);
+}
+
+.mainContent-20q_Hp {
+    padding: var(--channel-spacing);
+}
+
+/* Channels & Categories Color: */
+
+.channelName-3KPsGw{color: #ff99be !important;}
+.icon-2W8DHg,.container-q97qHp,.icon-3zI3d2{color: rgb(255, 245, 245) !important;}
+
+
+Rainbow alternative 
+.channelName-3KPsGw {
+    animation: chromaYeet 5s linear infinite;
+}
+.icon-2W8DHg {
+    animation: chromaYeet 6s linear infinite;
+}
+
+.container-q97qHp {
+    animation: chromaYeet 7s linear infinite;
+}
+
+.icon-3zI3d2 {
+    animation: chromaYeet 8s linear infinite;
+}
+
+
+@keyframes chromaYeet {
+    from {
+        color: #6666ff;
+    }
+
+    10% {
+        color: #0099ff;
+    }
+
+    50% {
+        color: #00ff00;
+    }
+
+    75% {
+        color: #ff3399;
+    }
+
+    100% {
+        color: #6666ff;
+    }
+}
+
+/* Rounded Context Menu */
+.menu-1QACrS, .colorDefault-CDqZdO { 
+    border-radius: 15px; 
+}
+
+/* Noti bubble*/
+:root{
+    --status-danger: #f587cb ;
+}
+
+.base-3IDx3L {
+    color:#292c3c;
+}
+
+.scrollableContainer-15eg7h {
+    background-color: #f0afe1;
+}
+
+/*home separator*/
+.guildSeparator-a4uisj {
+    background-color: #e55591;
+}
+
+/* Adds CRT scanline overlay to whole Discord window */
+
+body::before {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: linear-gradient(
+        rgba(255,255,255, 0.05) 50%,
+        rgba(0,0,0, 0.1) 50%
+    );
+    background-size: 100% 4px;
+    z-index: 9999;
+    pointer-events: none;
+    animation: flicker 0.2s infinite alternate;
+}
+
+body::after {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 4px;
+    position: absolute;
+    background-image: linear-gradient(
+        rgba(0,0,0, 0.5),
+        transparent
+    );
+    z-index: 9998;
+    pointer-events: none;
+    top: 0%;
+    animation: scanline 3s linear infinite;
+}
+
+/*@keyframes scanline {
+    0% { top: 100%; }
+}*/
+
+/* Spotify Covers Go Wheeeee */
+/* profile */
+.assetsLargeImageSpotify-17ME3M {
+  /*animation: spin 3s linear infinite;*/
+  border-radius: 50%;
+}
+/* the animation  
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+.side-2ur1Qk>:where(.bd-sidebar-header,[class*=-tab],[class*=-tab]+.separator-2wx7h6) {
+  order: -1;
+}

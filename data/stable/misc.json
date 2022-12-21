@@ -1,0 +1,11 @@
+{
+    "version": "1.8.4",
+    "drawerStates": {
+        "settings": {
+            "addons": false,
+            "customcss": true,
+            "window": true,
+            "developer": true
+        }
+    }
+}
