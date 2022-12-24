@@ -13,7 +13,7 @@ button[aria-label="Send a gift"] {
     display: none;
 }
 
-/*Remove help button
+/*Remove help button !! cause no Spotify activity ?
 .anchor-1MIwyf {
     display: none;
 }*/
@@ -63,7 +63,7 @@ Rainbow alternative
     animation: chromaYeet 8s linear infinite;
 }
 
-
+/* I honestly have no idea what is this but it murdered my CPU
 @keyframes chromaYeet {
     from {
         color: #6666ff;
@@ -84,7 +84,7 @@ Rainbow alternative
     100% {
         color: #6666ff;
     }
-}
+}*/
 
 /* Rounded Context Menu */
 .menu-1QACrS, .colorDefault-CDqZdO { 
@@ -167,4 +167,3 @@ body::after {
   order: -1;
 }
 
-/*Light transparent*/
